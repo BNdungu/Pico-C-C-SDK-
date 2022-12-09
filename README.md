@@ -1,4 +1,16 @@
-# Pico-C-C-SDK-
+# How I installed the Pico C/C++ SDK in Ubuntu
+mkdir pico
+cd pico
+git clone -b master https://github.com/raspberrypi/pico-sdk.git
+cd pico-sdk
+git submodule update --init
+cd ..
+git clone -b master https://github.com/raspberrypi/pico-examples.git
+sudo apt update
+sudo apt install cmake gcc-arm-none-eabi build-essential
+
+
+
 
 # How I created my first blink sketch using th C/C++ SDK for the pico
 
