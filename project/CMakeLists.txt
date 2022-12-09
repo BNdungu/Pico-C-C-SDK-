@@ -16,7 +16,7 @@ add_executable(blink
 	blink.c
 	)
 
-#pull in our pico_stdlib which pulls in commonly
+#pull in our pico_stdlib which pulls in 
 target_link_libraries(blink pico_stdlib)
 
 #create map/bin/hex file etc.
